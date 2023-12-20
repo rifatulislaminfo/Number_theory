@@ -15,7 +15,7 @@ void prime(int lim){
         }
     }
     v.push_back(2);
-    for(int i=3;i<=lim;i++){
+    for(int i=3;i<=lim;i+=2){
         if(isprime[i]==1){
             v.push_back(i);
         }
